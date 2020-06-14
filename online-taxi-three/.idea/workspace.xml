@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93ece957-96d5-43af-85f9-a642dd523927" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/api-passenger/target/" />
+    <ignored path="$PROJECT_DIR$/online-taxi-common/target/" />
+    <ignored path="$PROJECT_DIR$/service-sms/target/" />
+    <ignored path="$PROJECT_DIR$/api-listen-order/target/" />
+    <ignored path="$PROJECT_DIR$/api-driver/target/" />
+    <ignored path="$PROJECT_DIR$/api-passenger-feign/target/" />
+    <ignored path="$PROJECT_DIR$/api-driver-ribbon/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ExcudeRibbonConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/java/com/online/taxi/driver/annotation/ExcudeRibbonConfig.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ApiDriverApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/java/com/online/taxi/driver/ApiDriverApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-listen-order/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="25" selection-start-line="24" selection-start-column="19" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SmsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/java/com/online/taxi/driver/controller/SmsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShortMsgRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/java/com/online/taxi/driver/dto/ShortMsgRequest.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="MsbRandomRule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/java/com/online/taxi/driver/ribbonconfig/MsbRandomRule.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="TestConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/java/com/online/taxi/driver/ribbonconfigscan/TestConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="OrderService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/java/com/online/taxi/driver/service/OrderService.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="OrderServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/java/com/online/taxi/driver/service/impl/OrderServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setCode</find>
+      <find>eureka-7900</find>
+      <find>7900</find>
+      <find>redis</find>
+      <find>${server.port}</find>
+      <find>port: 9001</find>
+      <find>eureka</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="E:/annWS/sb" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/api-passenger/src/main/java/com/mashibing/apipassenger/ApiPassengerApplication.java" />
+        <option value="$PROJECT_DIR$/api-passenger/src/main/java/com/mashibing/apipassenger/dto/ShortMsgRequest.java" />
+        <option value="$PROJECT_DIR$/api-passenger/src/main/java/com/mashibing/apipassenger/feign/interceptor/MyBasicAuthRequestInterceptor.java" />
+        <option value="$PROJECT_DIR$/api-passenger/src/main/java/com/mashibing/apipassenger/request/UserAuthRequest.java" />
+        <option value="$PROJECT_DIR$/api-passenger/src/main/java/com/mashibing/apipassenger/response/UserAuthResponse.java" />
+        <option value="$PROJECT_DIR$/api-passenger/src/main/java/com/mashibing/apipassenger/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/api-passenger/src/main/java/com/mashibing/apipassenger/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/api-passenger/src/main/java/com/mashibing/apipassenger/feign/ServiceForecast.java" />
+        <option value="$PROJECT_DIR$/api-passenger/src/main/java/com/mashibing/apipassenger/feign/config/FeignAuthConfiguration.java" />
+        <option value="$PROJECT_DIR$/api-passenger/src/main/java/com/mashibing/apipassenger/fallback/SmsClientFallback.java" />
+        <option value="$PROJECT_DIR$/api-passenger/src/main/java/com/mashibing/apipassenger/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/online-taxi-common/src/main/java/com/online/taxi/common/dto/ResponseResult.java" />
+        <option value="$PROJECT_DIR$/api-passenger/src/main/java/com/mashibing/apipassenger/feign/SmsClient.java" />
+        <option value="$PROJECT_DIR$/api-passenger/src/main/java/com/mashibing/apipassenger/feign/config/FeignDisableHystrixConfiguration.java" />
+        <option value="$PROJECT_DIR$/api-passenger/src/main/java/com/mashibing/apipassenger/fallback/SmsClientFallbackFactory.java" />
+        <option value="$PROJECT_DIR$/api-passenger/src/main/java/com/mashibing/apipassenger/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/api-passenger/src/main/java/com/mashibing/apipassenger/controller/SmsController.java" />
+        <option value="$PROJECT_DIR$/api-passenger/src/main/java/com/mashibing/apipassenger/service/impl/ShortMsgServiceImpl.java" />
+        <option value="$PROJECT_DIR$/api-passenger/src/main/java/com/mashibing/apipassenger/service/impl/VerificationCodeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-eureka/src/main/resources/application-bigdata.yml" />
+        <option value="$PROJECT_DIR$/service-sms/pom.xml" />
+        <option value="$PROJECT_DIR$/service-sms/src/main/java/com/online/taxi/sms/dao/SmsDao.java" />
+        <option value="$PROJECT_DIR$/service-sms/src/main/java/com/online/taxi/sms/service/AliService.java" />
+        <option value="$PROJECT_DIR$/api-listen-order/pom.xml" />
+        <option value="$PROJECT_DIR$/api-passenger/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/api-listen-order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/service-sms/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/api-driver/pom.xml" />
+        <option value="$PROJECT_DIR$/api-driver/src/main/java/com/mashibing/apidriver/ApiDriverApplication.java" />
+        <option value="$PROJECT_DIR$/api-driver/src/main/java/com/mashibing/apidriver/annotation/ExcudeRibbonConfig.java" />
+        <option value="$PROJECT_DIR$/api-driver/src/main/java/com/mashibing/apidriver/constant/HttpUrlConstants.java" />
+        <option value="$PROJECT_DIR$/api-driver/src/main/java/com/mashibing/apidriver/dto/ShortMsgRequest.java" />
+        <option value="$PROJECT_DIR$/api-driver/src/main/java/com/mashibing/apidriver/exception/BusinessException.java" />
+        <option value="$PROJECT_DIR$/api-driver/src/main/java/com/mashibing/apidriver/request/HelloRequest.java" />
+        <option value="$PROJECT_DIR$/api-driver/src/main/java/com/mashibing/apidriver/ribbonconfig/MsbRandomRule.java" />
+        <option value="$PROJECT_DIR$/api-driver/src/main/java/com/mashibing/apidriver/ribbonconfigscan/TestConfiguration.java" />
+        <option value="$PROJECT_DIR$/api-driver/src/main/java/com/mashibing/apidriver/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/api-driver/src/main/java/com/mashibing/apidriver/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/api-driver/src/main/java/com/mashibing/apidriver/controller/GrabOrderController.java" />
+        <option value="$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/controller/GrabOrderController.java" />
+        <option value="$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/api-driver/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/ApiDriverApplication.java" />
+        <option value="$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/controller/SmsController.java" />
+        <option value="$PROJECT_DIR$/api-passenger-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/api-passenger-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/api-driver-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/api-driver-ribbon/src/main/java/com/online/taxi/driver/ApiDriverRibbonApplication.java" />
+        <option value="$PROJECT_DIR$/api-driver-ribbon/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Program Files\JetBrains\IntelliJ IDEA 2018.1.5\plugins\maven\lib\maven3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="402" />
+    <option name="y" value="56" />
+    <option name="width" value="969" />
+    <option name="height" value="571" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="online-taxi-three" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-taxi-three" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-taxi-three" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-taxi-three" type="462c0819:PsiDirectoryNode" />
+              <item name="api-driver-ribbon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-taxi-three" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-taxi-three" type="462c0819:PsiDirectoryNode" />
+              <item name="api-driver-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-taxi-three" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-taxi-three" type="462c0819:PsiDirectoryNode" />
+              <item name="api-driver-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-taxi-three" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-taxi-three" type="462c0819:PsiDirectoryNode" />
+              <item name="api-driver-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-taxi-three" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-taxi-three" type="462c0819:PsiDirectoryNode" />
+              <item name="api-driver-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-taxi-three" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-taxi-three" type="462c0819:PsiDirectoryNode" />
+              <item name="api-driver-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-taxi-three" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-taxi-three" type="462c0819:PsiDirectoryNode" />
+              <item name="api-listen-order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-taxi-three" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-taxi-three" type="462c0819:PsiDirectoryNode" />
+              <item name="api-listen-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-taxi-three" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-taxi-three" type="462c0819:PsiDirectoryNode" />
+              <item name="api-listen-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-taxi-three" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-taxi-three" type="462c0819:PsiDirectoryNode" />
+              <item name="api-listen-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="F:/code/online-taxi-master/online-taxi-master" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\mashibing-ws\online-taxi-three\api-driver-ribbon\src\main\resources" />
+      <recent name="E:\mashibing-ws\online-taxi-three\api-driver-ribbon\src\main\java\com\online\taxi\driver" />
+      <recent name="E:\mashibing-ws\online-taxi-three\api-driver-ribbon\src\main\java\com\online\taxi\driver\service\impl" />
+      <recent name="E:\mashibing-ws\online-taxi-three\api-driver-ribbon\src\main\java\com\online\taxi\driver\service" />
+      <recent name="E:\mashibing-ws\online-taxi-three\api-driver-ribbon\src\main\java\com\online\taxi\driver\ribbonconfigscan" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApiDriverApplication (1)">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="7900" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mashibing.cloudeureka.CloudEurekaApplication" />
+      <option name="ACTIVE_PROFILES" value="7900" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="7901" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mashibing.cloudeureka.CloudEurekaApplication" />
+      <option name="ACTIVE_PROFILES" value="7901" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="7902" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mashibing.cloudeureka.CloudEurekaApplication" />
+      <option name="ACTIVE_PROFILES" value="7902" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="7903" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mashibing.cloudeureka.CloudEurekaApplication" />
+      <option name="ACTIVE_PROFILES" value="7903" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="ApiDriverApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-driver-ribbon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.taxi.driver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.taxi.driver.ApiDriverApplication" />
+    </configuration>
+    <configuration name="ApiDriverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-driver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.taxi.driver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.taxi.driver.ApiDriverApplication" />
+    </configuration>
+    <configuration name="ApiListenOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-listen-order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.taxi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.taxi.ApiListenOrderApplication" />
+    </configuration>
+    <configuration name="ApiPassengerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-passenger-feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.taxi.passenger.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.taxi.passenger.ApiPassengerApplication" />
+    </configuration>
+    <configuration name="ApiPassengerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-passenger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mashibing.apipassenger.ApiPassengerApplication" />
+    </configuration>
+    <configuration name="OnlineTaxiCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="online-taxi-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mashibing.onlinetaxicommon.OnlineTaxiCommonApplication" />
+    </configuration>
+    <configuration name="ServiceSmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-sms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.taxi.sms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.taxi.sms.ServiceSmsApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.7901" />
+      <item itemvalue="Spring Boot.7902" />
+      <item itemvalue="Spring Boot.7903" />
+      <item itemvalue="Spring Boot.ApiPassengerApplication" />
+      <item itemvalue="Spring Boot.OnlineTaxiCommonApplication" />
+      <item itemvalue="Spring Boot.ServiceSmsApplication" />
+      <item itemvalue="Spring Boot.ApiListenOrderApplication" />
+      <item itemvalue="Spring Boot.ApiDriverApplication" />
+      <item itemvalue="Spring Boot.ApiPassengerApplication (1)" />
+      <item itemvalue="Spring Boot.ApiDriverApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ApiDriverApplication (1)" />
+        <item itemvalue="Spring Boot.ApiPassengerApplication (1)" />
+        <item itemvalue="Spring Boot.ApiDriverApplication" />
+        <item itemvalue="Spring Boot.ApiListenOrderApplication" />
+        <item itemvalue="Spring Boot.ServiceSmsApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93ece957-96d5-43af-85f9-a642dd523927" name="Default" comment="" />
+      <created>1591543061956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591543061956</updated>
+      <workItem from="1591543063912" duration="1878000" />
+      <workItem from="1591569163934" duration="3270000" />
+      <workItem from="1591738916950" duration="5198000" />
+      <workItem from="1592009351133" duration="30291000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="40637000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32978722" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="10" weight="0.32978722" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.70238096" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.5935374" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7755102" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.11325301" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8532609" visible="true" weight="0.2530395" />
+      <window_info anchor="right" id="Bean Validation" order="4" weight="0.32978722" />
+      <window_info id="Web" order="2" sideWeight="0.14673913" side_tool="true" weight="0.37242797" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.78741497" />
+      <window_info anchor="right" id="SciView" order="5" weight="0.32978722" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.82653064" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.11325301" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32993197" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8532609" visible="true" weight="0.37242797" />
+      <window_info anchor="right" id="SciView" order="9" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="7" sideWeight="0.14673913" side_tool="true" visible="true" weight="0.37242797" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.70238096" />
+      <window_info anchor="right" id="Bean Validation" order="1" weight="0.32978722" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE.jar!/org/springframework/boot/SpringApplication.class</url>
+          <line>783</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
+          <line>1225</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
+          <line>1236</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.3.0.RELEASE/spring-boot-2.3.0.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java</url>
+          <line>267</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/dto/ShortMsgRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/exception/BusinessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/exception/HystrixIgnoreException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/request/HelloRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/ribbonconfig/MsbRandomRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/ribbonconfig/RibbonConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/ribbonconfigscan/TestConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/service/RestTemplateRequestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/service/ShortMsgService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/service/VerificationCodeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/service/impl/RestTemplateRequestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/service/impl/ShortMsgServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/service/impl/VerificationCodeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-sms/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/ApiDriverApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/src/main/java/com/online/taxi/driver/controller/SmsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="30" selection-start-line="30" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-passenger/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="131" column="12" selection-start-line="131" selection-start-column="12" selection-end-line="131" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-passenger-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-passenger/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="28" selection-start-line="27" selection-start-column="6" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-passenger-feign/src/main/java/com/online/taxi/passenger/annotation/ExcudeFeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-passenger-feign/src/main/java/com/online/taxi/passenger/controller/GatewayTestController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-passenger-feign/src/main/java/com/online/taxi/passenger/dto/ShortMsgRequest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-passenger-feign/src/main/java/com/online/taxi/passenger/fallback/SmsClientFallback.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-passenger-feign/src/main/java/com/online/taxi/passenger/feign/ServiceForecast.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-passenger-feign/src/main/java/com/online/taxi/passenger/feign/config/FeignAuthConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-passenger-feign/src/main/java/com/online/taxi/passenger/feign/interceptor/MyBasicAuthRequestInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-passenger-feign/src/main/java/com/online/taxi/passenger/schedule/ScheduleTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-passenger-feign/src/main/java/com/online/taxi/passenger/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-passenger-feign/src/main/java/com/online/taxi/passenger/ApiPassengerFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-passenger-feign/src/main/java/com/online/taxi/passenger/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-passenger-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-passenger-feign/src/main/java/com/online/taxi/passenger/ApiPassengerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/java/com/online/taxi/driver/dto/ShortMsgRequest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/java/com/online/taxi/driver/ribbonconfig/MsbRandomRule.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/java/com/online/taxi/driver/ribbonconfigscan/TestConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/java/com/online/taxi/driver/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/java/com/online/taxi/driver/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/java/com/online/taxi/driver/controller/SmsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-listen-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="63" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/java/com/online/taxi/driver/ApiDriverRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/java/com/online/taxi/driver/annotation/ExcudeRibbonConfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-listen-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="25" selection-start-line="24" selection-start-column="19" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-driver-ribbon/src/main/java/com/online/taxi/driver/ApiDriverApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

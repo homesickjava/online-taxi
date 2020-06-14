@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-driver" />
+        <module name="api-driver-ribbon" />
+        <module name="api-listen-order" />
+        <module name="api-passenger" />
+        <module name="api-passenger-feign" />
+        <module name="cloud-eureka" />
+        <module name="online-taxi-common" />
+        <module name="service-sms" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

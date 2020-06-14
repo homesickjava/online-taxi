@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-driver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-driver-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-listen-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-passenger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-passenger-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/online-taxi-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-sms" charset="UTF-8" />
+  </component>
+</project>

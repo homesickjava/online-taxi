@@ -1,0 +1,11 @@
+server:
+  port: 7900
+spring:
+  application:
+    name: eureka
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+      service-url:
+        defaultZone: http://localhost:7900/eureka/
